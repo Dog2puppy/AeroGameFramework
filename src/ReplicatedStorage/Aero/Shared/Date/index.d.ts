@@ -16,8 +16,8 @@ interface Date {
 	ToSeconds(): number
 	GetTimezoneHourOffset(): number
 	Format(strFormat: string): string
-	ToUTC(): unknown
-	ToLocal(): unknown
+	ToUTC(): string
+	ToLocal(): string
 	ToISOString(): string
 	ToDateString(): string
 	ToTimeString(): string
