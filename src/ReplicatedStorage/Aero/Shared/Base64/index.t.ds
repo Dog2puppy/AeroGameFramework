@@ -1,3 +1,9 @@
 interface Base64 {
 	new()
+	
+	Encode(value: string): string
+	Decode(value: string): string
 }
+
+declare const base64Class: Base64
+export defualt Base64
