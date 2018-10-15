@@ -3,7 +3,7 @@ interface Connection {
 }
 
 interface Event {
-	new ()
+	new()
 
 	Fire(arguments: any): void
 	Wait(): void
